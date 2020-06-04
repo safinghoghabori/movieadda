@@ -21,7 +21,7 @@ import { useHomeFetch } from "./hooks/useHomeFetch";
 import NoImage from "./images/no_image.jpg";
 
 const Home = () => {
-  // TO take the search query
+  // To take the search query
   const [searchTerm, setSearchTerm] = useState("");
 
   const [
